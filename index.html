@@ -1,18 +1,92 @@
 <html>
-<head>
-<script>
-function myFunction()
-{
-document.getElementById("nameField").innerHTML="Connor";
-}
-</script>
-</head>
-<body>
-<h1> Hello World </h1>
-
-<p id="nameField"> Name </p>
-
-<button type="button" onclick="myFunction()">Connor</button>
-
-</body>
+    <head>
+        
+      <title>
+      HTML 5 Demo  
+      </title>
+        
+     <script>
+    function clear()
+    {
+        location.reload()
+    }
+    </script> 
+                
+    </head>
+    
+    <body>
+        
+    <h1 align="center">
+    HTML 5 Demo App    
+        </h1> 
+        
+    <h3 align="center">
+        ISC4U
+        </h3>
+        
+    <p align="center">
+        This app is designed to demonstrate HTML 5 and JavaScript running in the <br> 
+        PhoneGap native runtime on Android, iOS, and Playbook.
+        </p>  
+        
+    <table align="center">
+       <tr>
+        <td>
+          <button onclick="function1(this)">
+              Red
+            </button> 
+           </td>
+        <td>
+          <button onclick="function2(this)">
+              Blue
+            </button>
+           </td>
+        <td>
+           <button onclick="function3(this)">
+              Green
+            </button>
+           </td>
+        <td>
+           <button onclick="function4(this)">
+              Purple
+            </button>
+           </td>
+        </tr> 
+        <tr>
+        <td align="center">
+            <input type="button" value="Clear" onclick="clear()">
+            </td>
+        </tr>
+        
+        </table>  
+       
+        <script>
+        function function1(x)
+        {
+           x.style.backgroundColor="red";
+        }
+            </script>
+        
+        <script>
+        function function2(x)
+        {
+            x.style.backgroundColor="blue";
+        }
+        </script>            
+            
+        <script>
+        function function3(x)
+        {
+            x.style.backgroundColor="green";
+        }
+            </script>
+            
+        <script>
+        function function4(x)
+        {
+            x.style.backgroundColor="purple";
+        }
+            </script>   
+    
+    </body>
 </html>
