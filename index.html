@@ -4,19 +4,17 @@
       <title>
       HTML 5 Demo  
       </title>
-        
-     <script>
-    function clear()
-    {
-        location.reload()
-    }
-    </script> 
-                
+    
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+    <script src="main.js"></script>
+    
     </head>
+    
     
     <body>
         
-    <h1 align="center">
+    <h1 align="center" onclick="titleChange(this)">
     HTML 5 Demo App    
         </h1> 
         
@@ -26,7 +24,7 @@
         
     <p align="center">
         This app is designed to demonstrate HTML 5 and JavaScript running in the <br> 
-        PhoneGap native runtime on Android, iOS, and Playbook.
+        PhoneGap native runtime for Android, iOS, and Playbook.
         </p>  
         
     <table align="center">
@@ -52,41 +50,15 @@
             </button>
            </td>
         </tr> 
-        <tr>
-        <td align="center">
-            <input type="button" value="Clear" onclick="clear()">
-            </td>
-        </tr>
-        
+            
         </table>  
        
-        <script>
-        function function1(x)
-        {
-           x.style.backgroundColor="red";
-        }
-            </script>
+        <div align="center">
         
-        <script>
-        function function2(x)
-        {
-            x.style.backgroundColor="blue";
-        }
-        </script>            
-            
-        <script>
-        function function3(x)
-        {
-            x.style.backgroundColor="green";
-        }
-            </script>
-            
-        <script>
-        function function4(x)
-        {
-            x.style.backgroundColor="purple";
-        }
-            </script>   
+            <img id="image1" src="images/image1.jpg" onclick="imageChange(this)">
+
+        </div>
+        
     
     </body>
 </html>
