@@ -30,12 +30,3 @@
         {
             location.reload();
         }
-
-        function imageChange(id)
-        {
-           id.src="images/image2.jpg";
-        }
-        
-    
-       
-           

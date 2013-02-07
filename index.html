@@ -1,14 +1,20 @@
 <html>
     <head>
         
-      <title>
-      HTML 5 Demo  
-      </title>
+        <title>
+            HTML 5 Demo  
+        </title>
     
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
     
-    <script src="main.js"></script>
+        <script src="main.js"></script>
     
+        <script src="slideshow.js"></script>
+        
+        <script>
+         var num;
+        </script>
+        
     </head>
     
     
@@ -52,13 +58,11 @@
         </tr> 
             
         </table>  
-       
+   
         <div align="center">
-        
-            <img id="image1" src="images/image1.jpg" onclick="imageChange(this)">
-
+                  <img id="image1" src="images/image1.jpg" onclick="next(this)">
         </div>
-        
+                      
     
     </body>
 </html>
